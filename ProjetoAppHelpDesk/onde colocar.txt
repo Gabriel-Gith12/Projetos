@@ -1,0 +1,8 @@
+Ira ter 2 pasta, o que tiver 2 arquivos colar em
+
+" C: E: D:\xampp\app_help_desk_2 " 
+
+e o que tiver 11 arquivos colocar em 
+
+" C: E: D:\xampp\htdocs\app_help_desk "
+
