@@ -1,0 +1,132 @@
+.container {
+  max-height: 800px;
+  max-width: 1280px;
+  min-height: 600px;
+  min-width: 1000px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+h1 {
+  position: relative;
+  text-align: center;
+  color: #353535;
+  font-size: 50px;
+  font-family: "Cormorant Garamond", serif;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  font-size: 18px;
+  color: #676767;
+}
+
+.border {
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+
+.border:hover {
+  border: 1px solid #fff;
+}
+
+.card {
+  height: 379px;
+  width: 300px;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card0 {
+  background: url("https://i.pinimg.com/564x/d1/03/05/d1030535c5fc604719bd1dc81522dfb6.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card0:hover {
+  background: url("https://i.pinimg.com/564x/d1/03/05/d1030535c5fc604719bd1dc81522dfb6.jpg") left center no-repeat;
+  background-size: 600px;
+}
+
+.card0:hover h2 {
+  opacity: 1;
+}
+
+.card0:hover .fa {
+  opacity: 1;
+}
+
+.card1 {
+  background: url("https://i.pinimg.com/564x/60/b5/b4/60b5b4939027b26862d1ab5feb70c968.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card1:hover {
+  background: url("https://i.pinimg.com/564x/60/b5/b4/60b5b4939027b26862d1ab5feb70c968.jpg") left center no-repeat;
+  background-size: 600px;
+}
+
+.card1:hover h2 {
+  opacity: 1;
+}
+
+.card1:hover .fa {
+  opacity: 1;
+}
+
+.card2 {
+  background: url("https://i.pinimg.com/564x/b0/e6/bb/b0e6bbe840111b85c5855a0d5d6c9e0a.jpg") center center no-repeat;
+  background-size: 300px;
+}
+
+.card2:hover {
+  background: url("https://i.pinimg.com/564x/b0/e6/bb/b0e6bbe840111b85c5855a0d5d6c9e0a.jpg") left center no-repeat;
+  background-size: 600px;
+}
+
+.card2:hover h2 {
+  opacity: 1;
+}
+
+.card2:hover .fa {
+  opacity: 1;
+}
+
+h2 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.fa {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.icons {
+  position: absolute;
+  height: 130px;
+  top: 226px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
