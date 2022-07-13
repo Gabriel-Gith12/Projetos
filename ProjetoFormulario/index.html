@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Formulário de Usuário e Cadastro</title>
+
+    <!-- Deixar Responsivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <!-- Icones -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- icone -->
+    <link rel="icon" href="img/icon.png">
+    
+</head>
+<body>
+
+    <!-- Formulário de Usuário -->
+    <div class="container">
+        <div class="formularios">
+            <div class="form usuario">
+                <span class="title">Usuário</span>
+
+                <form action="#">
+
+                    <div class="input-field">
+                        <input type="text" placeholder="Digite seu Email" required>
+                        <i class="uil uil-envelope" style="color: black"></i>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" class="senha" placeholder="Digite sua Senha" required>
+                        <i class="uil uil-lock icon" style="color: black"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text" >Lembrar a conta?</label>
+                        </div>
+                        
+                        <a href="#" class="text">Esqueceu a senha?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Entrar">
+                    </div>
+                </form>
+
+                <div class="usuario-cadastro">
+                    <span class="text">Não é um membro?
+                        <a href="#" class="text cadastro-link">Faça seu Cadastro!</a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Formulário de Registro -->
+            <div class="form cadastro">
+                <span class="title">Cadastro</span>
+
+                <form action="#">
+
+                    <div class="input-field">
+                        <input type="text" placeholder="Digite seu Usuário" required>
+                        <i class="uil uil-user" style="color: black"></i>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="text" placeholder="Digite seu Email" required>
+                        <i class="uil uil-envelope icon" style="color: black"></i>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" class="senha" placeholder="Digite sua Senha" required>
+                        <i class="uil uil-lock icon" style="color: black"></i>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="password" class="senha" placeholder="Repete sua Senha" required>
+                        <i class="uil uil-lock-alt" style="color: black"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="termCon">
+                            <label for="termCon" class="text">Eu aceito todos os termos e condições</label>
+                        </div>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Cadastre-se">
+                    </div>
+
+                </form>
+
+                <div class="usuario-cadastro">
+                    <span class="text">Já é usuário?
+                        <a href="#" class="text usuario-link">Entre na sua conta!</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- script -->
+    <script src="js/script.js"></script>
+</body>
+</html>
